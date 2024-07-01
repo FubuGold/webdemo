@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+header {
+    display: inline-block, grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    align-items: center;
+    padding: 1rem 3 rem;
+    position: fixed;
+    top: 0;
+    width: 100dvw;
+    background-color: white;
+    z-index:100;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+#page-logo {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    margin-block: 0;
+}
+#brand-name {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-weight: var(--fw-bold);
+    margin-block: 0;
+}
+#page-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+#page-nav-list {
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    margin-right: 0;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-block: 0;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+#icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%  
+}
+#icon-list {
+    display:inline-flex; 
+    flex-direction: row;
+    flex: 0.6;
+    align-items: center;
+    justify-content: right;
+    margin-block: 0;
+    list-style: none;
+}
+.sup {
+    margin-left: 30px;
+}
+
+.imgbox {
+    position: sticky;
+}
+#discover {
+    color:darkgoldenrod;
+}
+.rectangle {
+    margin-left: 790px;
+    margin-bottom: 100px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    bottom: 0;
+    height: 400px;
+    width: 600px;
+    color:rgb(10, 10, 10);
+    background-color: rgb(244, 238, 200);
+    border-radius:0px;
+    display: block;
+    justify-content: center;
+    align-items: right;
+    align-content: center;
+  }
+#text {
+    margin-left: 15px;
+}
+.rectangle button {
+    padding: 10px 50px 10px 50px;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    background-color:darkgoldenrod;
+}
+.imgbox {
+    position: relative;
+    display: inline-block;
+}
+#browse {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+    color: gray;
+}
+#mum {
+    color:black;
+    margin-top: 0;
+}
+a {
+    text-decoration: none;
+}
+#row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1px;
+}
+.row {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+#prod {
+    text-align: center;
+    text-decoration: solid;
+    font-size: 30px;
+}
+#he {
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 285px 285px 285px 285px;
+    gap: 15px;
+    
+}
+.je {
+    background-color: rgb(216, 213, 213);
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+.je img {
+    width: 100%;
+}
+.prods {
+    margin-left: 10px;
+}
+.grey {
+    color: grey;
+}
+.cir {
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    justify-content: center;
+    align-items: right;
+    align-content: center;
+    text-align: center;
+    margin-left: 220px;
+    margin-bottom: 240px;
+
+}
+.circle {
+    position: relative;
+    display: inline-block;
+}
+#ending {
+    display: grid; 
+    grid-template-columns: auto auto auto auto;
+}
+li {
+    list-style: none;
+}
+#Newsletter {
+    border: 2px;
+    border-color: black;
+}
+
+
