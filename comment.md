@@ -1,7 +1,6 @@
 # Nhận xét bài làm
 
 ## Tổng quan
-Trang web của em bị lỗi *404* khi launch trong github
 
 **Lưu ý:**  trang web launch đầu tiên thường là `index.html` nên em nên đặt tên lại file `home.html` nha.
 
